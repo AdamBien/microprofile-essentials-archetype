@@ -7,7 +7,7 @@
     </parent>
     <groupId>com.airhacks</groupId>
     <artifactId>microprofile-essentials-archetype</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>microprofile-essentials-archetype</name>
     <description>Java EE microprofile project quickstart template. Clean, lean and minimalistic.</description>
     <url>http://airhacks.com</url>
