@@ -1,9 +1,11 @@
-package com.airhacks.health.boundary;
+package ${package}.health.boundary;
+
 import javax.enterprise.context.ApplicationScoped;
-import org.eclipse.microprofile.health.Health;
 import org.eclipse.microprofile.health.HealthCheck;
-import org.eclipse.microprofile.health.HealthCheckResponse;    
-@Health
+import org.eclipse.microprofile.health.HealthCheckResponse;
+import org.eclipse.microprofile.health.Liveness;
+
+@Liveness
 @ApplicationScoped
 public class LivenessCheck implements HealthCheck {
 
